@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+h3{
+    color: #EEEEEE;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.score-container{
+    display: flex;
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#score-number-home{
+    font-size: 90px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+}
+
+#score-number-guest{
+    font-size: 90px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+}
+
+.buttons{
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Cursed Timer ULiL";
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: transparent;
+}
